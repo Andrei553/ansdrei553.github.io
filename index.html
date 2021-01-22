@@ -1,264 +1,74 @@
-<!DOCTYPE html>
 <html>
-
 <head>
-    <!-- Video InPage Advertur.ru start -->
-<div id="advertur_282431"></div>
-<div id="282431_720_0" style="display: none;"></div>
-<script type="text/javascript">
-    (function(w, d, n, ln) {
-        w[n] = w[n] || [];
-        w[n].push({
-            section_id: 282431,
-            place: "advertur_282431",
-            width: 720,
-            height: 0,
-            message: "<b>Реклама помогает развиваться сайту, просим внести наш сайт в список разрешенных или отключить AdBlock! </b>"
-        });
+<head>
+<body background="2.png">
 
-        if (!w[ln]) {
-            w[ln] = {};
 
-            var s = d.createElement("script");
-            s.type = "text/javascript";
-            s.charset = "utf-8";
-            s.src = "//ddnk.advertur.ru/v1/s/loader.js";
-            s.async = true;
-            s.onerror = function () {
-                if (w != w.top) {
-                    return;
-                }
-
-                var counter = 0,
-                    fn = function () {
-                        if (counter >= 60) {
-                            clearInterval(interval);
-                            return;
-                        }
-                        counter++;
-                        w[n].forEach(function (item) {
-                            if (item.hasOwnProperty('rendered') && item.rendered) {
-                                return;
-                            }
-
-                            var el = d.getElementById([item.section_id, item.width, item.height].join('_'));
-                            if (!el) {
-                                return;
-                            }
-
-                            el.style.width = item.width + "px";
-                            el.style.height = item.height + "px";
-                            el.innerHTML = item.message;
-                            el.style.display = '';
-                            item.rendered = true;
-                        });
-                    },
-                    interval = setInterval(fn, 1000)
-                ;
-            };
-            document.body.appendChild(s);
-        }
-    })(window, document, "advertur_sections", "advertur_loader");
-</script>
-<!-- Video InPage Advertur.ru end -->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CZ970P3GLS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-CZ970P3GLS');
-</script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<div id="menu">
+	<ul>
+		<li><a href="#">HTML</a></li>
+		<li><a href="#">CSS</a></li>
+		<li><a href="#">jQuery</a></li>
+		<li><a href="#">PHP</a></li>
+		<li><a href="#"> Видео курс </a></li>	
+         <li><a href="#"> Видео курс </a></li>	
+        <li><a href="#"> Видео курс </a></li>	
+           <li><a href="#"> Видео курс </a></li>	
+          <li><a href="#"> Видео курс </a></li>	
+             <li><a href="#"> Видео курс </a></li>	
+            <li><a href="#"> Видео курс </a></li>	
+            <li><a href="#"> Видео курс </a></li>	
+                <li><a href="#"> Видео курс </a></li>	
+           <li><a href="#"> Видео курс </a></li>	
+              <li><a href="#"> Видео курс </a></li>	
+             <li><a href="#"> Видео курс </a></li>	
+             <li><a href="#"> Видео курс </a></li>			
+	</ul>
+</div>
 <style>
-body {
-  font-family: "Lato", sans-serif;
+/* Убираем отступы */
+/* Убираем отступы */
+*{
+    margin:0;
+    padding:0;
 }
-
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+/* Задаем ширину меню */
+#menu{
+    width:110px;
+    margin:15px;
 }
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+/* Стили для наших пунктов меню */
+#menu ul{
+    list-style:none;
 }
-
-.sidenav a:hover {
-  color: #f1f1f1;
+#menu li{
+    list-style:none;
+    display:block;
+    line-height:32px;
+    height:32px;
+    margin:7px 0;
+    width:206px;
 }
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+#menu li a{
+    display:block;
+    height:100px;
+    text-transform:uppercase;
+    font-size:16px;
+    font-weight:bold;
+    line-height:32px;
+    padding:0 0 0 25px;
+    text-decoration:none;
+    color:#006A35;
+    background: #000000;
+    border:solid 1px #006A35;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:5px;
 }
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+ </style>
+/* Подсветка наведденого пункта */
+#menu li a:hover{
+    background: #35C835;
+    color:#fff;
 }
-</style>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<script data-ad-client="ca-pub-1611969732579530" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173265196-4"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-173265196-4');
-  </script>
-
-  <script data-ad-client="ca-pub-1611969732579530" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script data-ad-client="ca-pub-1611969732579530" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <meta name='advmaker-verification' content='b38146f92ceeac2cb921ab28c7ba3657' />
-  <meta http-equiv='Content-Type' content='b38146f92ceeac2cb921ab28c7ba3657; charset=UTF-8'>
-
-
- <img src="https://static.wixstatic.com/media/6a4a49_508d90fa581a42999339c1ad0cf69cc4~mv2.jpg/v1/fit/w_500,h_500,al_c,q_80/file.png" width="450px" height="450px" <p align="left">>
- <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="sing.html">новости</a>
-  <a href="SEA.html">ПОИСК</a>
-  <a href="#">о нас</a>
-  <a href="EGG.HTML">правила</a>
-</div>
-
-
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-   
-  <p style="position:absolute;left:0;bottom:0;margin-bottom:0"></p>
-  
-   </p>
-  <h4 style="color:Yellow;"></font> <h1 style="color:GREEN;">СОВЕТ ДНЯ: БОЛЬШЕ СПИТЕ :)</h1>.</h4>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8605FTZH56"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
- <p> Грамотно отформатированный текст дает понять поисковым системам, какие слова несут важную смысловую нагрузку, по каким из них предпочтительно ранжировать веб-страницу в поисковой выдаче. Вся текстовая информация, отображаемая на сайте, размещается внутри тега <kbd>&lt;body&gt;</kbd>.</p>
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-8605FTZH56');
-  </script>
-  <script data-ad-client="ca-pub-1611969732579530" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-</head>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173265196-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag('js', new Date());
-  gtag('config', 'UA-173265196-1');
-</script>
-
-
-<body background="https://avatanplus.com/files/resources/original/5b507fc547505164b2731aac.jpg">
-    
-   
-<script type="text/javascript">  
-setInterval(function () {  
- date = new Date(),  
- h = date.getHours(),  
- m = date.getMinutes(),  
- s = date.getSeconds(),  
- h = (h < 10) ? '0' + h : h,  
- m = (m < 10) ? '0' + m : m,  
- s = (s < 10) ? '0' + s : s,  
- document.getElementById('time').innerHTML = h + ':' + m + ':' + s;  
-}, 1000);
-</script>
-
-<span style="color:#7e5a25; font-size:14pt; border:2px solid #e1d4ae; background:#e8e3d4; padding:5px;">
-<span id="time">00:00:00</span>
-</span>
-
-<h3>ВСЕ НОВОСТИ С ТЕГОМ
-КИБЕРБЕЗОПАСНОСТЬ
-10 января 2021
-22:14 Генсек ООН сравнил наступивший год с 1945-м
-5 января 2021
-05:19 Эксперт назвал необходимую периодичность смены пароля в сервисах
-4 января 2021
-18:32 WSJ снова пишет о якобы российских кибератаках
-30 декабря 2020
-08:38 Эксперты предупредили о росте киберугроз с развитием экосистем банков
-23 декабря 2020
-14:47 Apple выпустила взломанные версии iPhone
-21 декабря 2020
-21:58 Эксперты назвали средние сроки исправления уязвимостей в компьютерных программах
-20 декабря 2020
-14:33 В код открыт: за взломом правительства США мог стоять хакер из Казахстана
-19 декабря 2020
-05:30 Эксперт рассказал о методах защиты от слежки по биллингу телефона
-18 декабря 2020
-20:42 Советник Трампа допустил непричастность России к кибератакам в США
-18:19 МВД России создаст в своей структуре киберполицию
-12:31 Microsoft опровергла сообщения об уроне от хакерской атаки
-17 декабря 2020
-11:23 ФБР расследует кибератаку на разведку США
-05:44 Разведслужбы США заявили о затронувшей сети правительства кибератаке
-16 декабря 2020
-23:30 В гаджетах на платформе Android нашли опасную уязвимость
-16:31 Еврокомиссия хочет создать сеть центров против кибератак
-16:16 В СПЧ призвали создать киберполицию для отслеживания трэш-стримов
-13:51 ЕС создаст сеть центров против кибератак на основе искусственного интеллекта
-13:38 Лавров заявил об отсутствии официального обращения США из-за кибератак
-03:49 Советник Трампа вернулся из Европы из-за якобы российских кибератак
-15 декабря 2020
-14:37 В Совфеде назвали долю кибератак из США на чувствительные объекты России
-13:54 Власти США обязали соцсети отчитаться о методе сбора данных
-14 декабря 2020
-13:47 В Кремле призвали прекратить голословно обвинять РФ в хакерских атаках в США
-10:07 Косачев заявил о попытках США использовать кибератаки в антироссийских целях
-13 декабря 2020
-02:23 Эксперт объяснил механизм использования QR-кода для кражи денег
-12 декабря 2020
-03:09 Эксперт объяснила способность смартфона тайно снимать владельцев</h3>
-    
-    <div class="sidenav">
-  <a href="#about">новости</a>
-  <a href="SEA.html">ПОИСК</a>
-  <a href="#clients">о нас</a>
-  <a href="#contact">правила</a>
-</div>
-
-<div class="main">
+</body>
